@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% endblock %}
+
+{% block div %}
+<div id="main">
+    <div id="caption">
+        <h3>Tabs & <br> Tutorials <br> at your fingertips</h3>
+    </div>
+    <div id="inputs">
+        <form action="/output" method='post' enctype="multipart/form-data">
+            <br>
+            <input type="file" id="file" name="file" accept=".mp3"/>
+            <br>
+            <label for="data">How are you feeling right now? Describe your current mood or situation:</label>
+            <br>
+            <input type="text" id="data" name="data">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+{% endblock %}

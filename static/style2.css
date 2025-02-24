@@ -1,0 +1,42 @@
+html {
+    background-color: #0f172c;
+    color: rgb(223, 201, 155);
+}
+h1 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-left: 20px; 
+}
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 33% 33% 33%;
+    column-gap: 100;
+    row-gap: 20px;
+    justify-items: center;
+}
+#videoHead {
+    grid-column: 1;
+    grid-row: 1;
+}
+p {
+    font-family: "Libre Franklin", serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    color:rgb(220, 220, 220)
+}
+#video1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+#video2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+#video3 {
+    grid-column: 1;
+    grid-row: 4;
+}

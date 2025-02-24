@@ -1,0 +1,34 @@
+html {
+    background-color: #0f172c;
+    color: rgb(223, 201, 155);
+}
+h1 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-left: 20px; 
+}
+h3 {
+    font-size: 60px;
+    font-weight: 300;
+}
+#main {
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+#caption {
+    margin-top: 200px;
+}
+#inputs {
+    margin-top: 200px;
+    font-size: 30px;
+}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+{% endblock %}
+
+{% block div %}
+
+<div id="main">
+    <div id="videoHead"><p>Videos reccomendations</p></div>
+    <div id="video1">
+        <iframe width="560" height="315" src="{{song}}" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div id="tabs">
+        <h1> {{mp3}}</h1>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+html {
+    background-color: #0f172c;
+    color: rgb(223, 201, 155);
+}
+h1 {
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-left: 20px; 
+}
