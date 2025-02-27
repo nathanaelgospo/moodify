@@ -26,9 +26,18 @@ h3 {
     column-gap: 100px;
 }
 #caption {
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #inputs {
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-left: 30px;
     font-size: 30px;
+}
+
+#data {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
 }

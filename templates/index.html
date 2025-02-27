@@ -7,14 +7,10 @@
 {% block div %}
 <div id="main">
     <div id="caption">
-        <h3>Tabs & <br> Tutorials <br> at your fingertips</h3>
     </div>
     <div id="inputs">
-        <form action="/output" method='post' enctype="multipart/form-data">
-            <br>
-            <input type="file" id="file" name="file" accept=".mp3"/>
-            <br>
-            <label for="data">How are you feeling right now? Describe your current mood or situation:</label>
+        <form action="/result" method='post' enctype="multipart/form-data">
+            <label for="data">How are you feeling today? Share a few words about your mood or what you're going through, and we'll create a custom playlist just for you.</label>
             <br>
             <input type="text" id="data" name="data">
             <br>
