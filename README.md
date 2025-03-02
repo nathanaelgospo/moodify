@@ -1,18 +1,21 @@
-# GuitarMe
+# Moodify
 
-Team: Lard.html
-Group Members: Anthony Fox, Andrew Mack, Caleb Cope, Nathanael Gospodinov
+Moodify is a web application that generates personalized Spotify playlists based on your current mood or life situation. It integrates with Spotify for authentication and track management, and leverages OpenAI's GPT-4 to craft a custom playlist that fits your vibe.
 
-A website which takes an mp3 download and produces guitar tabs and allows users to search for guitar youtube tutorials.
+## Features
 
-# Youtubes API Instructions (Google Cloud APIs and Services)
-https://developers.google.com/youtube/v3/code_samples/code_snippets
-https://explorer.apis.google.com/credentials_faq.html
-https://support.google.com/googleapi/answer/6158862?hl=en&ref_topic=7013279
-https://developers.google.com/explorer-help/code-samples#python
-# Youtube Dependencies
-pip install --upgrade google-api-python-client
-pip install --upgrade google-auth-oauthlib google-auth-httplib2
+- **Spotify Integration:**  
+  Authenticate via Spotify OAuth, retrieve your saved tracks, and create new playlists directly on your account.
 
-# To Access Enviroment Varaibles from .env file
-pip install python-dotenv
+- **AI-Powered Playlist Generation:**  
+  Use OpenAI's GPT-4 to analyze your mood and generate a 25-song playlist tailored to your current state.
+
+- **User-Friendly Interface:**  
+  A simple web interface where you input your mood and receive a personalized playlist.
+
+## Prerequisites
+
+- Python 3.8+
+- A Spotify Developer account with a Client ID and Client Secret
+- An OpenAI API key
+- pip (Python package installer)
